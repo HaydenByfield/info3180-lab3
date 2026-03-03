@@ -1,3 +1,33 @@
 body {
     padding-top: 5rem;
 }
+
+form{
+    display: inline-block;
+}
+
+.form-label{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.form-submit{
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 400px;
+}
+#message{
+    height: 150px;
+}
+.btn-primary{
+    border: 0px;
+    background-color: rgb(35, 233, 255);
+    height: 50px ;
+    width: 100px ;
+}
+.btn-primary:hover{
+    opacity: 0.5;
+}
+.btn-primary:active{
+    color: white;
+    background-color: black;
+}
